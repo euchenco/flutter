@@ -32,19 +32,20 @@ class DetailScreen extends StatelessWidget {
               ],
             ),
           ),
-          // Widget Kedua: Tombol/Lingkaran Ungu
+          // Widget Kedua: Tombol/Lingkaran Ungu (Perbaikan di sini)
           Padding(
             padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 32),
             child: Container(
-              width: 50, // Lebar lingkaran
-              height: 50, // Tinggi lingkaran
+              width: 50, // Tentukan lebar lingkaran
+              height: 50, // Tentukan tinggi lingkaran
               decoration: BoxDecoration(
-                color: Colors.deepPurple[100]?.withValues(alpha: 0.8),
+                color: Colors.deepPurple[100]?.withValues(alpha: 0.8), // 'color' harus huruf kecil
                 shape: BoxShape.circle,
               ),
             ),
           ),
         ],
+      
       ),
     );
   }
